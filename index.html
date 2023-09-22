@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Aritmatika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Aritmatika</h1>
+        <p>Ketut Adi Pradiptayasa Agustana</p>
+        <p>2215101015</p>
+        </div>
+        <br>
+    <div class="container">
+    
+            <h2> Menghitung Deret Fibonacci</h2>
+            <input type="number" id="fibonacci-input" placeholder="Masukkan jumlah bilangan">
+            <button onclick="generateFibonaci()">Hitung Fibonacci</button>
+            <h3> Hasil</h3>
+            <p id= "fibonacci-result"></p>
+
+            <h2>Perhitungan Volume Bangun Ruang</h2>
+            <label for="shape">Pilih bangun ruang:</label> <br>
+            <select id="shape">
+                <option value="balok">Balok</option>
+                <option value="kubus">Kubus</option>
+                <option value="bola">Bola</option>
+            </select>
+            <div id="dimension-inputs">
+                <input type="number" id="length" placeholder="Panjang">
+                <input type="number" id="width" placeholder="Lebar">
+                <input type="number" id="height" placeholder="Tinggi">
+                <input type="number" id="side" placeholder="Sisi">
+                <input type="number" id="radius" placeholder="Jari-Jari">
+            </div>
+            <button onclick="KalkulatorVolume()">Hitung Volume</button>
+            <h3>Hasil Perhitungan</h3>
+            <p id="volume-result"></p>
+        </select>
+       
+            
+</div>
+<script src="script.js"></script>
+</body>
+</html>
